@@ -1,0 +1,15 @@
+.ScrollableDiv {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    &::-webkit-scrollbar {
+      height: 0.5rem;
+      background-color: rgb(255, 255, 255);
+    }
+  
+    &::-webkit-scrollbar-thumb {
+     background-color: rgb(152, 152, 152)
+    }
+}
